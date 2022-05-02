@@ -8,14 +8,7 @@ export class AssetLoader extends Loader {
         super();
         let public_dir = process.env.PUBLIC_URL;
 
-        this.add('dogStatic', `${public_dir}/assets/img/dog.png`)
-            .add('dogEating0', `${public_dir}/assets/img/dog-eating-0.png`)
-            .add('dogEating1', `${public_dir}/assets/img/dog-eating-1.png`)
-            .add('dogEating2', `${public_dir}/assets/img/dog-eating-2.png`)
-            .add('dogEating3', `${public_dir}/assets/img/dog-eating-3.png`)
-            .add('dogEating4', `${public_dir}/assets/img/dog-eating-4.png`)
-            .add('broccoli',`${public_dir}/assets/img/broccoli.png`)
-            .add('bone',`${public_dir}/assets/img/bone.png`)
+        //this.add('example', `${public_dir}/assets/example.png`)
     }
 
     loadAssets(): Promise<any> {
